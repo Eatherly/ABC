@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="libs/normolize.css">
+  <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+	</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+
+       <img src="img/c-logo.png" alt="" class="logo">
+       <div class="navigation" id="navigation" >
+    
+        <a href="#"> <div class="header__menu about" id="about"><span>HOME </span></div></a>
+        <a href="#"> <div class="header__menu portfolio" id="portfolio"><span>PRODUCTS</span></div></a>
+        <a href="#"> <div class="header__menu servicies"><span>ABOUT</span></div></a>
+        <a href="#"> <div class="header__menu contacts"><span>CONTACTS</span></div></a></div>
+        <em>items:</em>
+        <img src="img/buscket.jpg" alt="" class="buscket" >
+    
+        <a href="#"> <div class="header__menu total finalBalance">total: 100$</div></a>
+        
+    </header>
+    <div class="main">
+        <p>Our products<p>
+        <div class="main__cards">
+            <div class="card Apple">
+                <div class="addrem buy">Add one</div>
+                <span class="applePrice cardPrice"></span>
+                <div class="addrem undo">Rem one</div>
+                <div class="apple"></div>
+                <div class="rate Apple">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                </div>
+                 <div class="rating appleRating"></div>
+            </div>
+            <div class="card Beer">
+                <div class="addrem buy">Add one</div>
+                <span class="beerPrice cardPrice"></span>
+                <div class="addrem undo">Rem one</div>
+                <div class="beer"></div>
+                <div class="rate Beer">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                </div>
+                <div class="rating beerRating"></div>
+            </div>
+            <div class="card Water">
+                <div class="addrem buy">Add one</div>
+                <span class="waterPrice cardPrice"></span>
+                <div class="addrem undo">Rem one</div>
+                <div class="water"></div>
+                <div class="rate Water">
+                 <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                </div>
+                <div class="rating waterRating"></div>
+            </div>
+            <div class="card Cheese">
+                <div class="addrem buy">Add one</div>
+                <span class="cheesePrice cardPrice"></span>
+                <div class="undo">Rem one</div>
+                <div class="addrem cheese"></div>
+                <div class="rate Cheese">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                  <img src="img/starnotgood.png"  class="star" alt="">
+                </div>
+                <div class="rating cheeseRating">dfdfdf</div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+ 
+ 
+ 
+ 
+ <div class="moda shopingList"  ><!-- Связь с кнопкой , візов модального окна -->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header ">
+       <div class="balance">balance: <span class="tobalVal startBalance">100$</span></div>
+       <hr class="line">
+       <span class="modalHeader">item</span>
+       <span class="modalHeader">price</span>
+       <span class="modalHeader">count </span>
+       <span class="modalHeader">sum</span>  
+       <hr class="line">
+        <div class="modalApple Apple">
+            <img src="img/apple.jpg" alt="" class="imgInShopList">
+            <span class="applePrice modalPrice">0.30$</span>
+            <button class="buttonMinus">-</button>
+            <span class="appleCount num">0</span>
+            <button class="buttonPlus">+</button>
+            <span class="AppleTotal num">0</span>
+        </div>
+         <div class="beerModal Beer">
+            <img src="img/beer.jpg" alt="" class="imgInShopList">
+            <span class="beerPrice modalPrice">1.00$</span>
+            <button  class="buttonMinus">-</button>
+            <span class="beerCount num">0</span>
+            <button class="buttonPlus">+</button>
+            <span class="BeerTotal num">0</span>
+        </div>
+         <div class="modalWater Water">
+            <img src="img/water.jpg" alt="" class="imgInShopList">
+            <span class="waterPrice modalPrice">0.32$</span>
+            <button  class="buttonMinus">-</button>
+            <span class="waterCount num">0</span>
+            <button class="buttonPlus">+</button>
+            <span class="WaterTotal num">0</span>
+        </div>
+         <div class="modalCheese Cheese">
+            <img src="img/cheese.jpg" alt="" class="imgInShopList">
+            <span class="cheesePrice modalPrice">0.32$</span>
+            <button  class="buttonMinus">-</button>
+            <span class="cheeseCount num" >0</span>
+            <button class="buttonPlus">+</button>
+            <span class="CheeseTotal num">0</span>
+        </div>
+        <hr class="line">
+        <div class="UPS">UPS:<span class="tobalVal UPS">5$</span></div>
+       
+        
+         <div class="total">total:<span class="tobalVal totalPurch "></span></div>
+         <div class="balance">balance:<span class="tobalVal finalBalance "></span></div>
+        
+        <hr class="line">
+        <input type="radio" class="contactChoice1" name="shipping" value="">
+         <span for="contactChoice1">pick up(0 USD)</span> 
+         <input type="radio" class="contactChoice2" name="shipping" value="">
+         <span for="contactChoice1">UPS(5 USD)</span>
+         <button type="button" class="btn btn-success Pay">Make purchase</button>
+         <p class="shippingRem">Please, make choiсe of the delivery method </p> 
+         <p class="thanks">Thank you for your purchase, and now you can <button class="close1">Close</button> the window</p>
+         
+         
+    </div>
+  </div>
+</div>
+</div>
+ 
+ 
+  <script src="libs/jquery-3.2.1.min.js"></script>
+  <script src="libs/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+ <script src="js/js.js"></script>
+
+</body>
+</html>
+
+

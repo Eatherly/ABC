@@ -1,0 +1,171 @@
+body {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */ }
+
+@media screen and (max-width: 4000px) {
+  .container {
+    padding: 0px;
+    width: 1600px;
+    height: 1000px;
+    background-color: #ffffff;
+    font-family: Arial; }
+    .container .header__menu {
+      display: inline-block; }
+  .header {
+    width: 100%;
+    height: 60px;
+    background-color: #0f0f0f; }
+  .navigation {
+    height: 100%;
+    width: 825px;
+    display: inline-block;
+    position: static; }
+  a:hover {
+    text-decoration: none; }
+  .header__menu {
+    background-color: #0f0f0f;
+    display: inline-block;
+    height: 60px;
+    width: 190px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    color: white;
+    letter-spacing: 0.15em; }
+    .header__menu:hover {
+      border: 1px  solid white; }
+  .logo {
+    margin-left: 50px; }
+  .buscket {
+    height: 40px;
+    width: 65px;
+    border: 1px solid white;
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    line-height: 40px;
+    margin-left: 100px;
+    font-size: 16px;
+    background-image: url(../img/buscket.jpg);
+    -webkit-background-size: auto auto;
+            background-size: auto; }
+  .main {
+    width: 2000px;
+    height: 2000px; }
+    .main p {
+      margin-top: 65px;
+      font-size: 89.83px;
+      margin-left: 400px;
+      color: black;
+      letter-spacing: 0.15em; }
+  .main__cards {
+    width: 1255px;
+    margin-left: 175px;
+    margin-top: -35px; }
+  .card {
+    height: 400px;
+    width: 285px;
+    background-color: #0f0f0f;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px; }
+    .card:nth-child(-2n+4) {
+      background-color: #878787; }
+    .card:nth-child(2n+5) {
+      background-color: #878787; }
+  .buy, .undo, .rate {
+    width: 40%;
+    height: 10%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: white; }
+  .cardPrice {
+    color: white;
+    font-size: 16px; }
+  .apple {
+    width: 100%;
+    height: 285px;
+    background-image: url(../img/apple.jpg);
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat; }
+  .beer {
+    width: 100%;
+    height: 285px;
+    background-image: url(../img/beer.jpg);
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat; }
+  .water {
+    width: 100%;
+    height: 285px;
+    background-image: url(../img/water.jpg);
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat; }
+  .cheese {
+    width: 100%;
+    height: 285px;
+    background-image: url(../img/cheese.jpg);
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat; }
+  .shopingList {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 500px; }
+  .modal-content {
+    font-size: 25px; }
+    .modal-content div {
+      margin-left: 40px; }
+  .modalHeader {
+    margin-left: 60px; }
+  .imgInShopList {
+    width: 60px;
+    height: 60px;
+    margin-right: 60px; }
+  .modalPrice {
+    margin-right: 60px; }
+  .buttonPlus {
+    margin-right: 40px; }
+  .line {
+    width: 100%;
+    border: 1px solid black; }
+  .shippingRem {
+    display: none;
+    font-size: 16px;
+    color: red; }
+  .tobalVal {
+    float: right;
+    margin-right: 40px; }
+  .UPS {
+    display: none; }
+  .thanks {
+    font-size: 14px;
+    color: green;
+    display: none; }
+  .rate {
+    background-color: white;
+    height: 100%;
+    float: left;
+    width: 60%;
+    line-height: 70px; }
+  .rating {
+    font-size: 24px;
+    height: 100%;
+    color: white;
+    line-height: 70px;
+    text-align: center; } }
